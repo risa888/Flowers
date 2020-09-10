@@ -1,8 +1,19 @@
 <template>
   <div>
     <nuxt />
+    <!-- <app-footer /> -->
   </div>
 </template>
 
-<style>
-</style>
+<!--<script>
+// import AppFooter from ' ~/components/Footer.vue '
+
+// export default {
+//   components: {
+//     AppFooter
+//   }
+// }
+// </script>
+
+// <style>
+// </style>
