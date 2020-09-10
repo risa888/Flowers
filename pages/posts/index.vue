@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-12 text-right mb-4">
         <div class="d-flex justify-content-between">
-          <h3>育てた水草一覧</h3>
+          <h3>Life with flowers</h3>
           <nuxt-link to="/posts/add" class="btn btn-info">
-            水草を追加する
+            写真を投稿
           </nuxt-link>
         </div>
       </div>

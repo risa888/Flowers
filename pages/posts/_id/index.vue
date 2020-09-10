@@ -6,6 +6,9 @@
           {{ post.title }}
         </h2>
       </div>
+      <div class="form-group">
+            {{ post.pub_date }}
+          </div>
       <div class="col-md-6 mb-4">
         <img
           :src="post.picture"

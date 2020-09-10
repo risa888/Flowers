@@ -13,12 +13,15 @@
       <div class="col-md-4">
         <form @submit.prevent="submitWaterPlant">
           <div class="form-group">
-            <label for>水草の名称</label>
+            <!-- <label for>水草の名称</label> -->
             <input v-model="post.title" type="text" class="form-control">
           </div>
           <div class="form-group">
-            <label for>水草の写真</label>
+            <!-- <label for>picture</label> -->
             <input @change="onFileChange" type="file">
+          </div>
+          <div class="form-group">
+            {{ post.pub_date }}
           </div>
           <button type="submit" class="btn btn-success">
             更新
