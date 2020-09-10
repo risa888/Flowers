@@ -32,15 +32,15 @@ export default {
   },
   data () {
     return {
-      post: []
+      posts: []
     }
   },
   async asyncData ({ $axios, params }) {
     try {
-      const post = await $axios.$get(`/posts/`)
-      return { post }
+      const posts = await $axios.$get(`/posts/`)
+      return { posts }
     } catch (e) {
-      return { post: [] }
+      return { posts: [] }
     }
   },
   methods: {
